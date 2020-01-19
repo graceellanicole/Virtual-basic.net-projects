@@ -1,0 +1,44 @@
+Module Module1
+
+    Class Box
+        Public length As Double
+        Public breadth As Double
+        Public width As Double
+
+    End Class
+
+    Sub Main()
+        Dim box1 As Box = New Box()
+        Dim box2 As Box = New Box()
+        Dim volume1 As Double = 0.0
+        Dim volume2 As Double = 0.0
+
+
+
+        box1.length = 6
+        box1.breadth = 7
+        box1.width = 8
+
+        'for box one volume
+
+        volume1 = box1.length * box1.breadth * box1.width
+        Console.WriteLine("The volume of first box is " & volume1)
+
+        box2.length = 5
+        box2.breadth = 9
+        box2.width = 10
+
+        'for box two volume
+
+        volume2 = box2.length * box2.breadth * box2.width
+        Console.WriteLine("The volume of second box is" & volume2)
+
+        Console.ReadLine()
+
+
+
+
+
+    End Sub
+
+End Module
