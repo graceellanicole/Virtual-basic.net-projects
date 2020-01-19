@@ -1,0 +1,45 @@
+Module Module1
+
+    Class Students
+        Public mathematics As Double
+        Public physics As Double
+        Public geography As Double
+    End Class
+
+    Sub Main()
+        Dim Anna As Students = New Students()
+        Dim Hawa As Students = New Students()
+        Dim Sekela As Students = New Students()
+
+        Dim avg1 As Double
+        Dim avg2 As Double
+        Dim avg3 As Double
+
+        Anna.mathematics = 80
+        Anna.physics = 75
+        Anna.geography = 95
+
+        Hawa.mathematics = 75
+        Hawa.physics = 60
+        Hawa.geography = 75
+
+        Sekela.mathematics = 70
+        Sekela.physics = 65
+        Sekela.geography = 72
+
+
+        avg1 = ((Anna.mathematics + Anna.physics + Anna.geography) / 3)
+        Console.WriteLine("Anna's Average is " & avg1)
+
+        avg2 = ((Hawa.mathematics + Hawa.physics + Hawa.geography) / 3)
+        Console.WriteLine("Hawa's Average is " & avg2)
+
+        avg3 = ((Sekela.mathematics + Sekela.physics + Sekela.geography) / 3)
+        Console.WriteLine("Sekela's Average is " & avg3)
+
+        Console.ReadLine()
+
+
+    End Sub
+
+End Module
