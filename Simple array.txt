@@ -1,0 +1,28 @@
+Module Module1
+
+    Sub Main()
+        Dim StrData(5)
+        'Here initilization is done, the string will have six contents
+
+        StrData(0) = "Arnold"
+        StrData(1) = "Hawa"
+        StrData(2) = "Joan"
+        StrData(3) = "Beatrice"
+        StrData(4) = "Kennedy"
+        StrData(5) = "Lisa"
+        'Here each element is mentioned in accordance to its position
+
+        Console.WriteLine("The Array is:{0},{1},{2},{3},{4},{5}", StrData(0),
+        StrData(1),
+        StrData(2),
+        StrData(3),
+        StrData(4),
+        StrData(5))
+        'The user will display each element in its position
+        
+        Console.ReadLine()
+        'holds the windows to display window
+
+    End Sub
+
+End Module
